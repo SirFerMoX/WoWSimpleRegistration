@@ -1305,7 +1305,7 @@ section {
 .faq .faq-list a {
   display: block;
   position: relative;
-  font-family: #7cc576;
+  color: #7cc576;
   font-size: 18px;
   line-height: 24px;
   font-weight: 400;
