@@ -42,9 +42,9 @@
         <source src="<?php echo $antiXss->xss_clean(get_config("baseurl")); ?>/template/<?php echo $antiXss->xss_clean(get_config("template")); ?>/assets/img/wow-bg/video.mp4" type="video/mp4">
     </video>
     <div class="hero-container">
-        <a href="#hero" class="hero-logo" data-aos="zoom-in"><img style="display: block; margin: 0 auto;"
+        <div class="hero-logo" data-aos="zoom-in"><img style="display: block; margin: 0 auto;"
                                                              src="<?php echo $antiXss->xss_clean(get_config("baseurl")); ?>/template/<?php echo $antiXss->xss_clean(get_config("template")); ?>/assets/img/logo.png"
-                                                             alt=""></a>
+                                                             alt=""></div>
         <h1 data-aos="zoom-in"
             class="text-shadow1"><?php echo lang('welcome_to') . ' ' . $antiXss->xss_clean(get_config("page_title")); ?></h1>
         <h2 data-aos="fade-up" class="text-shadow1"><?php elang('welcome_message'); ?></h2>
