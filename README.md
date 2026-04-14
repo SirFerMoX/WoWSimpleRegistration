@@ -11,10 +11,10 @@ Supported Cores:
 
 ### ⭐ If you liked the project, feel free to give it a shining star. ⭐
 
-<a href="https://github.com/masterking32/WoWSimpleRegistration">
+<a href="https://github.com/SirFerMoX/BlizzSimpleRegistration">
    <img title="Star on GitHub" src="https://img.shields.io/github/stars/masterking32/WoWSimpleRegistration.svg?style=social&label=Star">
 </a>
-<a href="https://github.com/masterking32/WoWSimpleRegistration/fork">
+<a href="https://github.com/SirFerMoX/BlizzSimpleRegistration/fork">
    <img title="Fork on GitHub" src="https://img.shields.io/github/forks/masterking32/WoWSimpleRegistration.svg?style=social&label=Fork">
 </a>
 
@@ -39,7 +39,7 @@ Ensure PHP version 8.0 or higher is installed and the following extensions are e
    - Download and unzip the project, or clone it using Git:
 
      ```bash
-     git clone https://github.com/masterking32/WoWSimpleRegistration
+     git clone https://github.com/SirFerMoX/BlizzSimpleRegistration
      ```
 
 3. Install [Composer](https://getcomposer.org/download/).
@@ -57,16 +57,6 @@ Ensure PHP version 8.0 or higher is installed and the following extensions are e
 7. Edit the newly renamed `config.php` file, inserting your server details. Note that if using the "Image Captcha" feature, PHP's GD2 module must be enabled.
 
 8. Once the configuration is complete, your registration page should be operational.
-
-## 🔧 PHP 7 Version Download
-
-For those requiring PHP 7 support, please use the [last compatible commit for PHP 7](https://github.com/masterking32/WoWSimpleRegistration/tree/32a1e7e6bc31f2ed6ed1d83f64d1ae62aeab9d32). Follow these steps to clone the repository at the specific commit:
-
-```sh
-git clone https://github.com/masterking32/WoWSimpleRegistration
-cd WoWSimpleRegistration
-git checkout 32a1e7e6bc31f2ed6ed1d83f64d1ae62aeab9d32
-```
 
 # 🪛 Debugging
 
@@ -105,72 +95,6 @@ Here’s how to enable debug mode:
     - 🇰🇷 Korean
     - 🇷🇺 Russian
     - 🇵🇹 Portuguese
-
-## 🗒️ Changelog
-
-### 2.0.4 (2/20/2026)
-
-- Added Cloudflare Turnstile captcha support (captcha_type = 3).
-
-### 2.0.3 (11/12/2024)
-
-- Support SRP6 versions 1 and 2 used by Modern WoW servers/clients. (Thanks to [funjoker](https://github.com/funjoker))
-
-### 2.0.2 (2/24/2021)
-
-- Added a language changer feature. (Thanks to [DuelistRag3](https://github.com/DuelistRag3))
-
-### 2.0.1 (2/20/2021)
-
-- Introduced SRP6 support for CMangos.
-
-### 2.0.0 (8/03/2020)
-
-- New Battle for Azeroth template added.
-
-### 1.9.9 (8/03/2020)
-
-- Multi-language support was introduced.
-
-### 1.9.8 (8/03/2020)
-
-- Implemented SRP6 support.
-
-### 1.9.7 (7/28/2020)
-
-- Added Two-Factor Authentication (2FA) support.
-- Patched a low-level security vulnerability. **(Important: Please upgrade to this version)**
-- Resolved various bugs.
-- The `account set addon` command was included as a post-registration step for SOAP registrations.
-
-### 1.9.6 (7/27/2020)
-
-- Added HCaptcha/Recaptcha/Image captcha support.
-- Enhanced page load performance.
-- Expanded descriptions within the config file for better clarity.
-- Updated composer packages.
-
-### 1.9.5 (4/17/2020)
-
-- Enabled Register/Restore Password feature via SOAP, with CMangos support.
-
-### 1.9.4 (4/03/2020)
-
-- Vote system feature added.
-
-### 1.9.3 (4/02/2020)
-
-- Introduced a new template.
-
-### 1.9.2 (3/31/2020)
-
-- Fixed reported issues.
-
-### 1.9.1 (3/12/2020)
-
-- Added PHP version check.
-
-### 1.9 (3/12/2020)
 
 - Allowed multiple accounts to share one email address for non-battle.net servers.
 - Changed the user identification method from email to username for password change and restoration features on non-battle.net servers.
