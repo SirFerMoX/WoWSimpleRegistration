@@ -1,4 +1,4 @@
-# 🌍 Simple Registration Page for TrinityCore/AzerothCore/AshamaneCore/CMangos
+# 🌍 Blizzlike Simple Registration Page for TrinityCore/AzerothCore/AshamaneCore/CMangos
 
 Create a versatile website for your game server with this easy-to-use script, featuring compatibility with major server cores.
 
